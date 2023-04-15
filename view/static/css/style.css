@@ -1,0 +1,26 @@
+.navegacao_superior{
+    height: 300px;
+}
+.navegacao_superior ul{
+    display: flex;
+    align-items: center;
+}
+.navegacao_superior img{
+    width: 30px;
+    flex-shrink: 0;
+}
+.navegacao_superior ul input{
+    color: gray;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 5px 10px;
+    flex: 1;
+}
+.navegacao_superior ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+.navegacao_superior ul li a{
+    text-decoration: none;
+    color: black;
+}
