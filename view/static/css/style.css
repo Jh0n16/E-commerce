@@ -1,5 +1,5 @@
-.navegacao_superior{
-    height: 300px;
+header{
+    margin-bottom: 50px;
 }
 .navegacao_superior ul{
     display: flex;
@@ -23,4 +23,20 @@
 .navegacao_superior ul li a{
     text-decoration: none;
     color: black;
+}
+.div_principal{
+    display: block;
+}
+.wrapper1,
+.wrapper2{
+    display: flex;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
