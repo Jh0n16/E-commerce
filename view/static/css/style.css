@@ -1,6 +1,13 @@
+@import url("base/reset.css");/*Importando a folha da estilo a qual normaliza a página*/
+
+
 header{
-    margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
 }
+
 .navegacao_superior ul{
     display: flex;
     align-items: center;
